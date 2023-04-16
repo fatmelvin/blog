@@ -3,6 +3,10 @@ layout: default
 title: Markdown Usage
 ---
 
+# Markdown Testing Page
+
+### Headings
+
 # heading level 1
 
 ## heading level 2
@@ -40,7 +44,7 @@ Italicized text is the *cat's meow*.
 > This is a regular blockquotes section.
 >> This is a nested blockquotes section.
 
-> #### Blockquotes section with additional formatting
+> ### Blockquotes section with additional formatting
 >
 > - Item 1
 > - Item 2
@@ -49,7 +53,7 @@ Italicized text is the *cat's meow*.
 
 ---
 
-#### Lists
+### Lists
 
 1. Item 1
 2. Item 2
@@ -61,5 +65,22 @@ Italicized text is the *cat's meow*.
     1. Indented Item 1
     2. Indented Item 2
 3. Item 3
+
+---
+
+### Code Blocks
+
+    <html>
+        <head>
+        </head>
+    </html>
+
+### URLs and Email Addresses
+
+URL Example
+<https://www.markdownguide.org>
+
+Email Example
+<fake@example.com>
 
 ---
